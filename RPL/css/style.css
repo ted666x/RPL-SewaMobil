@@ -1,0 +1,1373 @@
+/* ==================================== */
+/* =============== HOME =============== */
+/* ==================================== */
+
+/* awal header */
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover,
+a:focus {
+
+    text-decoration: none;
+    color: blue;
+}
+
+#header {
+    background-color: #ffffff;
+    display: inline;
+    float: left;
+    width: 100%;
+}
+
+#header .header-area {
+    display: inline;
+    float: left;
+    padding: 10px;
+    width: 100%;
+}
+
+#header .header-area .header-top-left {
+    display: inline;
+    float: left;
+    width: 100%;
+}
+
+#header .header-area .header-top-left .top-email {
+    display: inline;
+    float: left;
+    font-size: 14px;
+    color: black;
+}
+
+#header .header-area .header-top-left .top-email i {
+    margin-right: 5px;
+}
+
+#header .header-area .header-top-left .top-phone {
+    border-left: 1px solid rgb(0, 0, 0);
+    display: inline;
+    font-size: 14px;
+    float: left;
+    margin-left: 15px;
+    padding-left: 15px;
+    color: black;
+}
+
+#header .header-area .header-top-left .top-phone i {
+    margin-right: 5px;
+}
+
+#header .header-area .header-top-right {
+    display: inline;
+    float: left;
+    text-align: right;
+    width: 100%;
+}
+
+#header .header-area .header-top-right .top-social-nav {
+    display: inline-block;
+}
+
+#header .header-area .header-top-right .top-social-nav li {
+    display: inline-block;
+}
+
+#header .header-area .header-top-right .top-social-nav li a {
+    display: inline-block;
+    color: black;
+    font-size: 15px;
+    padding: 0 12px;
+}
+
+/* akhir header */
+
+/* start navbar */
+
+#menu-login li a {
+    color: white;
+    text-decoration: none;
+}
+
+#menu-login li a:hover {
+    color: blue;
+    text-decoration: none;
+}
+
+/* finish navbar */
+
+/* start content */
+
+#popular {
+    font-family: 'Bahnschrift Light';
+    font-size: 40px;
+    color: black;
+    padding-bottom: 0%;
+}
+
+hr.new2 {
+    border-top: 2px solid #e708e7;
+    width: 10%;
+    border-radius: 50px;
+}
+
+#row-up {
+    padding-bottom: 4%;
+    padding-top: 4%;
+    text-align: center;
+}
+
+#row-up-shadow {
+    box-shadow: 0 8px 16px 0 rgba(197, 38, 149, 0.445);
+}
+
+#row-up-shadow img {
+    width: 100%;
+    height: 230px;
+}
+
+/* finish content */
+
+/* start hotel-partner */
+#hotel-partner {
+    background-color: #ffffff;
+}
+
+/* finish hotel-partner */
+
+/* start footer */
+
+#footer {
+    display: inline;
+    float: left;
+    width: 100%;
+}
+
+#footer .footer-top {
+    background-image: linear-gradient(to right, #610a61, #b907b9, #610a61);
+    display: inline;
+    float: left;
+    padding: 50px 0;
+    width: 100%;
+}
+
+#footer .footer-top .footer-top-area {
+    display: inline;
+    float: left;
+    width: 100%;
+}
+
+#footer .footer-top .footer-top-area .footer-widget {
+    display: inline;
+    float: left;
+    width: 100%;
+}
+
+#footer .footer-top .footer-top-area .footer-widget h4 {
+    color: #fff;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+#footer .footer-top .footer-top-area .footer-widget ul li a {
+    color: #f9f9f9;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 5px 0 5px 15px;
+    position: relative;
+    text-transform: capitalize;
+}
+
+#footer .footer-top .footer-top-area .footer-widget ul li a:before {
+    left: 0;
+    position: absolute;
+    top: 5px;
+}
+
+#footer .footer-top .footer-top-area .footer-widget p {
+    color: #f9f9f9;
+}
+
+#footer .footer-top .footer-top-area .footer-widget .subscribe-form {
+    display: inline;
+    float: left;
+    margin-top: 10px;
+    width: 100%;
+}
+
+#footer .footer-top .footer-top-area .footer-widget .subscribe-form input[type="email"] {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #000;
+    font-size: 15px;
+    height: 35px;
+    margin-bottom: 20px;
+    padding: 5px;
+    width: 100%;
+}
+
+#footer .footer-top .footer-top-area .footer-widget .subscribe-form .subscribe-btn {
+    color: white;
+    border: medium none;
+    border-radius: 4px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    padding: 5px 10px;
+}
+
+#footer .footer-top .footer-top-area .footer-widget address p {
+    font-weight: lighter;
+    letter-spacing: 0.5px;
+}
+
+#footer .footer-bottom {
+    background-color: #e708e7;
+    display: inline;
+    float: left;
+    padding: 25px 0;
+    width: 100%;
+}
+
+#footer .footer-bottom .footer-bottom-area {
+    display: inline;
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+
+#footer .footer-bottom .footer-bottom-area p {
+    color: #fff;
+    margin-bottom: 0;
+    letter-spacing: 0.3px;
+}
+
+#footer .footer-bottom .footer-bottom-area p a {
+    color: #fff;
+}
+
+/* finish footer */
+
+/* start btn to top */
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 8px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 6px;
+}
+
+#myBtn:hover {
+    background-image: linear-gradient(to right, #610a61, #b907b9, #610a61);
+}
+
+/* finish btn to top */
+
+/* ==================================== */
+/* =============== ABOUT =============== */
+/* ==================================== */
+
+/* start section  */
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+.hero-image-ticket {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://miro.medium.com/fit/c/1838/551/1*ztxHHEoRGpC7RdHHh-jhpA.jpeg);
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-image-about {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://www.geniushost.in/images/about-us.png);
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-image-xperience {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://static1.squarespace.com/static/5c7026f9c46f6d17bda859de/t/5c702785eb39313575ce40dd/1560881909930/?format=1500w);
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-image-rentcar {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(http://www.classiccar.com.pk/islamabad_rent_a_car/classic_car_banner.jpg);
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-image-gallery {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://thespinoff.co.nz/wp-content/uploads/2017/12/2017-lindauer-install-6.jpg);
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-image-contact {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://maccustomersolution.com/images/contactus_banner.jpg);
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text .carousel-caption {
+    text-align: center;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color: white;
+    margin-bottom: 3%;
+}
+
+.hero-text button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: black;
+    background-color: #ddd;
+    text-align: center;
+    cursor: pointer;
+}
+
+.hero-text button:hover {
+    background-color: #555;
+    color: white;
+}
+
+/* finish section */
+
+/* start about */
+
+#about1 {
+    padding-top: 25%;
+    padding-right: 5%;
+}
+
+#about2 {
+    padding-top: 2%;
+    padding-left: 20%;
+}
+
+#about3 {
+    padding-top: 9%;
+}
+
+#about4 {
+    padding-top: 5%;
+}
+
+#about5 {
+    padding-top: 4%;
+}
+
+#imgabouttop {
+    padding-top: 10%;
+}
+
+#imgabout1 {
+    border: 2px solid #e708e7;
+    border-radius: 10px;
+}
+
+#imgabout2 {
+    margin-right: 2%;
+    border: 2px solid #e708e7;
+    border-radius: 10px;
+}
+
+/* finish about*/
+
+/* start our team */
+
+.our-team {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+
+.our-team img:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
+
+.our-team-section {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/0/09/BlankMap-World-v2.png);
+}
+
+.title-team {
+    color: grey;
+    font-size: 18px;
+}
+
+.title-nama {
+    padding-top: 5%;
+}
+
+.button-our {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-image: linear-gradient(to right, #610a61, #e708e7, #610a61);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.a-our {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+.button-our:hover,
+.a-our:hover {
+    opacity: 0.8;
+}
+
+/* finish our team */
+
+/* ========================================== */
+/* =============== CONTACT US =============== */
+/* ========================================== */
+
+/* start contact us */
+
+#contact {
+    display: inline;
+    float: left;
+    padding: 100px 0;
+    width: 100%;
+}
+
+#contact .contact-area {
+    display: inline;
+    float: left;
+    width: 100%;
+}
+
+#contact .contact-area .contact-content {
+    display: inline;
+    float: left;
+    width: 100%;
+}
+
+#contact .contact-area .contact-content .contact-left {
+    display: inline;
+    float: left;
+    width: 100%;
+}
+
+#contact .contact-area .contact-content .contact-left .contactform {
+    display: inline;
+    float: left;
+    width: 100%;
+}
+
+#contact .contact-area .contact-content .contact-left .contactform .reply-title {
+    font-size: 25px;
+    margin-top: 0;
+}
+
+#contact .contact-area .contact-content .contact-left .contactform label {
+    display: block;
+}
+
+#contact .contact-area .contact-content .contact-left .contactform label .required {
+    color: #f60;
+}
+
+#contact .contact-area .contact-content .contact-left .contactform input[type="text"],
+#contact .contact-area .contact-content .contact-left .contactform input[type="email"],
+#contact .contact-area .contact-content .contact-left .contactform input[type="url"] {
+    border: none;
+    border: 1px solid #ddd;
+    color: #555;
+    margin-bottom: 10px;
+    height: 35px;
+    padding: 5px;
+    width: 100%;
+}
+
+#contact .contact-area .contact-content .contact-left .contactform textarea {
+    border: none;
+    border: 1px solid #ddd;
+    color: #555;
+    margin-bottom: 5px;
+    padding: 10px;
+    height: 150px;
+    width: 100%;
+}
+
+#contact .contact-area .contact-content .contact-left .contactform .form-submit input {
+    margin-top: 10px;
+}
+
+#contact .contact-area .contact-content .contact-right {
+    display: inline;
+    float: left;
+    width: 100%;
+}
+
+#contact .contact-area .contact-content .contact-right iframe {
+    height: 500px;
+}
+
+/* finish contact us */
+
+/* ========================================== */
+/* =============== TICKET RESERVATION =============== */
+/* ========================================== */
+
+/* start menu */
+
+.menu-ts h1 {
+    padding-top: 3%;
+    padding-bottom: 0%;
+    font-size: 40px;
+    font-family: 'Bahnschrift Light';
+    color: black;
+    text-align: center;
+}
+
+.menu-ts p {
+    padding-bottom: 3%;
+    font-size: 18px;
+    font-family: 'arial';
+    color: black;
+    text-align: center;
+}
+
+.container-menu {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+}
+
+.image-pilihan {
+    display: block;
+    width: 250px;
+    height: 180px;
+    border-radius: 10px;
+    border: 3px dotted #e708e7;
+}
+
+.image-pesawat {
+    display: block;
+    width: 250px;
+    height: 180px;
+    border-radius: 10px;
+}
+
+.image-hotels {
+    display: block;
+    width: 250px;
+    height: 180px;
+    border-radius: 10px;
+}
+
+.image-kai {
+    display: block;
+    width: 250px;
+    height: 180px;
+    border-radius: 10px;
+}
+
+.image-movie {
+    display: block;
+    width: 250px;
+    height: 180px;
+    border-radius: 10px;
+}
+
+#menu-pesawat {
+    padding-bottom: 40px;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background: transparent;
+    text-align: center;
+    bottom: 25%;
+}
+
+.container-menu:hover .overlay {
+    opacity: 1;
+}
+
+.button {
+    border-radius: 30px;
+    background: rgba(245, 241, 241, 0.747);
+    border-color: #e708e7;
+    color: #e708e7;
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+    width: 170px;
+    transition: all 0.5s;
+    cursor: pointer;
+    font-family: 'Bahnschrift Light';
+    font-weight: bold;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    text-align: center;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+#overlay-booking {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    cursor: pointer;
+}
+
+/* finish menu */
+
+/* start timeline */
+
+.timeline-booking {
+    margin-top: 3%;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/World-map.svg/1280px-World-map.svg.png);
+}
+
+.timeline-booking h1 {
+    padding-top: 3%;
+    padding-bottom: 0%;
+    font-size: 40px;
+    font-family: 'Bahnschrift Light';
+    color: black;
+    text-align: center;
+}
+
+.timeline-booking hr.new2 {
+    border-top: 2px solid #e708e7;
+    width: 10%;
+    border-radius: 50px;
+    margin-bottom: 5%;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: #e708e7;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+    border-radius: 10px;
+}
+
+/* Container around content */
+.container-timeline {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
+
+/* The circles on the timeline */
+.container-timeline::after {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right: -16px;
+    background-color: white;
+    border: 4px solid #007bff;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+/* Place the container to the left */
+.left {
+    left: 0;
+}
+
+/* Place the container to the right */
+.right {
+    left: 50%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 18px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid white;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent #e708e7;
+}
+
+/* Add arrows to the right container (pointing left) */
+.right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 18px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #e708e7 transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
+    left: -16px;
+}
+
+/* The actual content */
+.content {
+    padding: 20px 30px;
+    background-color: white;
+    position: relative;
+    border-radius: 10px;
+    border: 1px solid #e708e7;
+}
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+
+    /* Place the timelime to the left */
+    .timeline::after {
+        left: 31px;
+    }
+
+    /* Full-width containers */
+    .container-timeline {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+
+    /* Make sure that all arrows are pointing leftwards */
+    .container-timeline::before {
+        left: 60px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+
+    /* Make sure all circles are at the same spot */
+    .left::after,
+    .right::after {
+        left: 15px;
+    }
+
+    /* Make all right containers behave like the left ones */
+    .right {
+        left: 0%;
+    }
+}
+
+/* finish timeline */
+
+/* ==================================== */
+/* =============== GALLERY =============== */
+/* ==================================== */
+
+/* start video gallery */
+
+.container-gallery {
+    text-align: center;
+    padding: 5% 6%;
+}
+
+/* finish video gallery */
+
+/* ==================================== */
+/* =============== XPERIENCE =============== */
+/* ==================================== */
+
+/* start search */
+
+#polaroid-search {
+    box-shadow: 0 4px 8px 0 rgba(207, 17, 207, 0.425), 0 6px 20px 0 rgba(58, 10, 190, 0.19);
+    text-align: center;
+}
+
+/* finish search */
+
+/* Start up down */
+
+#updown {
+    font-family: 'Bahnschrift Light';
+    text-align: center;
+    background-image: linear-gradient(to right, #e708e7, #610a61, #e708e7);
+    border-radius: 5px;
+}
+
+#updown button {
+    font-size: 20px;
+    color: white;
+}
+
+/* START INDONESIA */
+.column-indo {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0px 6px;
+}
+
+.column-indo-index {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0px 1%;
+}
+
+@media screen and (max-width: 650px) {
+    .column-indo {
+        width: 100%;
+        display: block;
+    }
+}
+
+.card-indo {
+    box-shadow: 0 8px 16px 0 rgba(197, 38, 149, 0.445);
+    text-align: center;
+    border-radius: 5px;
+}
+
+.card-indo img {
+    width: 100%;
+    height: 260px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.card-indo img:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
+.container-indo {
+    padding: 0 16px;
+}
+
+.container-indo h2 {
+    padding: 3% 0%;
+    font-family: 'Bahnschrift Light';
+}
+
+.container-indo::after,
+.row-indo::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.button-indo {
+    border-radius: 5px;
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px 0px;
+    color: white;
+    background-color: #e708e7;
+    text-align: center;
+    cursor: pointer;
+    width: 40%;
+    font-size: 14px;
+}
+
+.button-indo:hover {
+    background-color: #007bff;
+}
+
+/* FINISH INDONESIA */
+
+/* START GROUP PACKAGES */
+
+.card-indo-group {
+    box-shadow: 0 8px 16px 0 rgba(197, 38, 149, 0.445);
+    border-radius: 5px;
+}
+
+.card-indo-group img {
+    width: 100%;
+    height: 260px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.card-indo-group img:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
+.checked {
+    color: orange;
+}
+
+.container-indo-group {
+    padding: 0 14px;
+}
+
+.container-indo-group h5 {
+    padding-top: 3%;
+    padding-bottom: 0%;
+    font-family: 'Bahnschrift Light';
+}
+
+.container-indo-group p {
+    padding: 0%;
+    font-family: 'Bahnschrift Light';
+    font-size: 12px;
+    padding-bottom: 0%;
+}
+
+.container-indo-group p span {
+    padding-top: 0;
+    padding-bottom: 0%;
+}
+
+.container-indo-group span {
+    padding-top: 0;
+    padding-bottom: 8%;
+}
+
+.container-indo-group::after,
+.row-indo::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.button-indo-group {
+    border-radius: 5px;
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px 0px;
+    color: white;
+    background-color: #e708e7;
+    text-align: center;
+    cursor: pointer;
+    width: 75%;
+    font-size: 14px;
+}
+
+.button-indo-group:hover {
+    background-color: #007bff;
+}
+
+#rp {
+    font-family: 'Bahnschrift Light';
+    font-size: 20px;
+    color: #e708e7;
+    text-align: center;
+}
+
+/* FINISH GROUP PACKAGES */
+
+/* Finish up down */
+
+/* Start Xperience */
+
+#makes {
+    padding-left: 13%;
+    padding-right: 13%;
+    padding-bottom: 3%;
+    padding-top: 2%;
+}
+
+#makes0 {
+    font-family: 'Bahnschrift Light';
+    font-size: 25px;
+    padding-top: 6%;
+}
+
+#makes1 {
+    padding-left: 13%;
+    padding-right: 13%;
+    padding-bottom: 4%;
+}
+
+#makes2 {
+    padding-bottom: 4%;
+}
+
+/* Finish Xperience */
+
+/*start login*/
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+
+/* Extra styles for the cancel button */
+.cancelbtnlogin {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainerlogin {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatarlogin {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.containerlogin {
+  padding: 16px;
+}
+
+span.pswlogin {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modallogin {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 30px;
+}
+
+/* Modal Content/Box */
+.modal-contentlogin {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 3px solid #888;
+  width: 25%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.closelogin {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.closelogin:hover,
+.closelogin:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animatelogin {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.pswlogin {
+     display: block;
+     float: none;
+  }
+  .cancelbtnlogin {
+     width: 100%;
+  }
+}
+
+/*finish login*/
+
+
+/*start sign*/
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+
+/* Extra styles for the cancel button */
+.cancelbtnsign {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainersign {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatarsign {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.containersign {
+  padding: 16px;
+}
+
+span.pswsign {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modalsign {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 30px;
+}
+
+/* Modal Content/Box */
+.modal-contentsign {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 3px solid #888;
+  width: 25%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.closesign {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.closesign:hover,
+.closesign:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animatesign {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.pswsign {
+     display: block;
+     float: none;
+  }
+  .cancelbtnsign {
+     width: 100%;
+  }
+/*finish sign*/
+
+/* ==================================== */
+/* ============= RENT CAR ============= */
+/* ==================================== */
+
+/* Start Rent Car */
+
+#rent {
+    text-align: center;
+    padding: 3% 0;
+}
+
+#rent img {
+    width: 180px;
+    height: 180px;
+    border-radius: 5px;
+    border: 2px solid #e708e7;
+}
+
+#rent h4 {
+    padding: 3% 0;
+}
+
+/* Finish Rent Car */

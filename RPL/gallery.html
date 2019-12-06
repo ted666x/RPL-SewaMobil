@@ -1,0 +1,803 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Animasi slider CSS -->
+    <link rel="stylesheet" href="css/animasi.css">
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+
+    <!-- start jQuery gallery plugin -->
+
+    <script type="text/javascript" src="jquery plugin gallery/third.party/jquery-1.7.1.min.js"></script>
+
+    <!-- nanoGALLERY - default theme css file -->
+    <link href="jquery plugin gallery/css1/nanogallery.css" rel="stylesheet" type="text/css">
+    <!-- nanoGALLERY - css file for the theme 'clean' -->
+    <link href="jquery plugin gallery/css1/themes/clean/nanogallery_clean.css" rel="stylesheet" type="text/css">
+    <!-- nanoGALLERY - css file for the theme 'light' -->
+    <link href="jquery plugin gallery/css1/themes/light/nanogallery_light.css" rel="stylesheet" type="text/css">
+
+    <!-- nanoGALLERY javascript -->
+
+    <script type="text/javascript" src="jquery plugin gallery/jquery.nanogallery.js"></script>
+
+    <!-- #################################################################################################################### -->
+    <!-- nanoGALLERY DEMO PANEL javascript - NOT NEEDED TO USE THE PLUGIN                                                     -->
+    <script type="text/javascript" src="jquery plugin gallery/jquery.nanogallerydemo.js"></script>
+    <!-- #################################################################################################################### -->
+
+
+ 
+    <script>
+        $(document).ready(function () {
+            jQuery("#nanoGallery4").nanoGallery({
+                userID: '34858669@N00',
+                kind: 'flickr',
+                thumbnailWidth: 'auto',
+                thumbnailHeight: 160, //110,
+                viewerDisplayLogo: true,
+                locationHash: false,
+                thumbnailHoverEffect: [{
+                    'name': 'labelSlideUp',
+                    'duration': 300
+                }],
+                thumbnailLabel: {
+                    display: true,
+                    position: 'overImageOnBottom',
+                    descriptionMaxLength: 50
+                },
+                thumbnailLazyLoad: true,
+                theme: 'clean',
+                colorScheme: 'light',
+                locationHash: false,
+                level1: {
+                    thumbnailWidth: 200,
+                    thumbnailHeight: 120
+                }
+            });
+
+
+            // ##################################################################################################################
+            // ##### Multi-level navigation (API method) #####
+            // ##################################################################################################################
+            var contentGalleryMLN = [{
+                    src: 'image_01.jpg', // image url
+                    srct: 'image_01ts.jpg', // thumbnail url
+                    title: 'image 01', // thumbnail title
+                    ID: 2
+                },
+                {
+                    src: 'image_02.jpg',
+                    srct: 'image_02ts.jpg',
+                    title: 'image 02',
+                    ID: 3
+                },
+                {
+                    src: 'image_03.jpg',
+                    srct: 'image_03ts.jpg',
+                    title: 'album 1',
+                    ID: 103,
+                    kind: 'album'
+                },
+                {
+                    src: 'image_03.jpg',
+                    srct: 'image_03ts.jpg',
+                    title: 'album 2',
+                    ID: 104,
+                    kind: 'album'
+                },
+                {
+                    src: 'image_03.jpg',
+                    srct: 'image_03ts.jpg',
+                    title: 'album 3',
+                    ID: 105,
+                    albumID: 103,
+                    kind: 'album'
+                },
+                {
+                    src: 'image_02.jpg',
+                    srct: 'image_02ts.jpg',
+                    title: 'image 03',
+                    ID: 4
+                },
+                {
+                    src: 'image_02.jpg',
+                    srct: 'image_02ts.jpg',
+                    title: 'image 04',
+                    ID: 5
+                },
+                {
+                    src: 'image_02.jpg',
+                    srct: 'image_02ts.jpg',
+                    title: 'image 05',
+                    ID: 6
+                },
+                {
+                    src: 'image_02.jpg',
+                    srct: 'image_02ts.jpg',
+                    title: 'image 06',
+                    ID: 7
+                },
+                {
+                    src: 'image_02.jpg',
+                    srct: 'image_02ts.jpg',
+                    title: 'image 07',
+                    ID: 8
+                },
+                {
+                    src: 'image_02.jpg',
+                    srct: 'image_02ts.jpg',
+                    title: 'image 08',
+                    ID: 9
+                },
+                {
+                    src: 'image_02.jpg',
+                    srct: 'image_02ts.jpg',
+                    title: 'image 09',
+                    ID: 10
+                },
+                {
+                    src: 'image_02.jpg',
+                    srct: 'image_02ts.jpg',
+                    title: 'image 10',
+                    ID: 11
+                },
+                {
+                    src: 'image_02.jpg',
+                    srct: 'image_02ts.jpg',
+                    title: 'image 10',
+                    ID: 12
+                },
+                {
+                    src: 'image_02.jpg',
+                    srct: 'image_02ts.jpg',
+                    title: 'image 11',
+                    ID: 13
+                },
+                {
+                    src: 'image_02.jpg',
+                    srct: 'image_02ts.jpg',
+                    title: 'image 12',
+                    ID: 14
+                },
+                {
+                    src: 'image_02.jpg',
+                    srct: 'image_02ts.jpg',
+                    title: 'image 13',
+                    ID: 15
+                },
+                {
+                    src: 'image_02.jpg',
+                    srct: 'image_02ts.jpg',
+                    title: 'image 14',
+                    ID: 16
+                },
+                {
+                    src: 'image_02.jpg',
+                    srct: 'image_02ts.jpg',
+                    title: 'image 15',
+                    ID: 17
+                },
+                {
+                    src: 'image_02.jpg',
+                    srct: 'image_02ts.jpg',
+                    title: 'image 16',
+                    ID: 18
+                },
+                {
+                    src: 'image_02.jpg',
+                    srct: 'image_02ts.jpg',
+                    title: 'image 17',
+                    ID: 19
+                },
+                {
+                    src: 'image_02.jpg',
+                    srct: 'image_02ts.jpg',
+                    title: 'image 18',
+                    ID: 20
+                },
+                {
+                    src: 'image_02.jpg',
+                    srct: 'image_02ts.jpg',
+                    title: 'image 19',
+                    ID: 21
+                },
+                {
+                    src: 'image_02.jpg',
+                    srct: 'image_02ts.jpg',
+                    title: 'image 20',
+                    ID: 22
+                },
+                {
+                    src: 'image_03.jpg',
+                    srct: 'image_03ts.jpg',
+                    title: 'image 1a',
+                    ID: 23,
+                    albumID: 103
+                },
+                {
+                    src: 'image_03.jpg',
+                    srct: 'image_03ts.jpg',
+                    title: 'image 1b',
+                    ID: 24,
+                    albumID: 103
+                },
+                {
+                    src: 'image_03.jpg',
+                    srct: 'image_03ts.jpg',
+                    title: 'image 1c',
+                    ID: 25,
+                    albumID: 103
+                },
+                {
+                    src: 'image_03.jpg',
+                    srct: 'image_03ts.jpg',
+                    title: 'image 1d',
+                    ID: 26,
+                    albumID: 103
+                },
+                {
+                    src: 'image_03.jpg',
+                    srct: 'image_03ts.jpg',
+                    title: 'image 1e',
+                    ID: 27,
+                    albumID: 103
+                },
+                {
+                    src: 'image_03.jpg',
+                    srct: 'image_03ts.jpg',
+                    title: 'image 1f',
+                    ID: 28,
+                    albumID: 103
+                },
+                {
+                    src: 'image_03.jpg',
+                    srct: 'image_03ts.jpg',
+                    title: 'image 2a',
+                    ID: 29,
+                    albumID: 104
+                },
+                {
+                    src: 'image_03.jpg',
+                    srct: 'image_03ts.jpg',
+                    title: 'image 2b',
+                    ID: 30,
+                    albumID: 104
+                },
+                {
+                    src: 'image_03.jpg',
+                    srct: 'image_03ts.jpg',
+                    title: 'image 2c',
+                    ID: 31,
+                    albumID: 104
+                },
+                {
+                    src: 'image_03.jpg',
+                    srct: 'image_03ts.jpg',
+                    title: 'image 2d',
+                    ID: 32,
+                    albumID: 104
+                },
+                {
+                    src: 'image_03.jpg',
+                    srct: 'image_03ts.jpg',
+                    title: 'image 2e',
+                    ID: 33,
+                    albumID: 104
+                },
+                {
+                    src: 'image_03.jpg',
+                    srct: 'image_03ts.jpg',
+                    title: 'image 2f',
+                    ID: 34,
+                    albumID: 104
+                },
+                {
+                    src: 'image_03.jpg',
+                    srct: 'image_03ts.jpg',
+                    title: 'image 2g',
+                    ID: 35,
+                    albumID: 104
+                },
+                {
+                    src: 'image_03.jpg',
+                    srct: 'image_03ts.jpg',
+                    title: 'image 2h',
+                    ID: 36,
+                    albumID: 104
+                },
+                {
+                    src: 'image_03.jpg',
+                    srct: 'image_03ts.jpg',
+                    title: 'image 2i',
+                    ID: 37,
+                    albumID: 104
+                },
+                {
+                    src: 'image_03.jpg',
+                    srct: 'image_03ts.jpg',
+                    title: 'image 2j',
+                    ID: 38,
+                    albumID: 104
+                },
+                {
+                    src: 'image_03.jpg',
+                    srct: 'image_03ts.jpg',
+                    title: 'image 2k',
+                    ID: 39,
+                    albumID: 104
+                },
+                {
+                    src: 'image_03.jpg',
+                    srct: 'image_03ts.jpg',
+                    title: 'image 2l',
+                    ID: 40,
+                    albumID: 104
+                },
+                {
+                    src: 'image_03.jpg',
+                    srct: 'image_03ts.jpg',
+                    title: 'image 2m',
+                    ID: 41,
+                    albumID: 104
+                },
+                {
+                    src: 'image_03.jpg',
+                    srct: 'image_03ts.jpg',
+                    title: 'image 2n',
+                    ID: 42,
+                    albumID: 104
+                },
+                {
+                    src: 'image_03.jpg',
+                    srct: 'image_03ts.jpg',
+                    title: 'image 2o',
+                    ID: 43,
+                    albumID: 104
+                },
+                {
+                    src: 'image_03.jpg',
+                    srct: 'image_03ts.jpg',
+                    title: 'image 2n',
+                    ID: 44,
+                    albumID: 105
+                },
+                {
+                    src: 'image_03.jpg',
+                    srct: 'image_03ts.jpg',
+                    title: 'image 2n',
+                    ID: 45,
+                    albumID: 105
+                },
+                {
+                    src: 'image_03.jpg',
+                    srct: 'image_03ts.jpg',
+                    title: 'image 2o',
+                    ID: 46,
+                    albumID: 105
+                }
+            ];
+
+            jQuery("#nanoGalleryMLN").nanoGallery({
+                thumbnailWidth: 120,
+                thumbnailHeight: 120,
+                items: contentGalleryMLN,
+                //paginationMaxItemsPerPage:3,
+                paginationMaxLinesPerPage: 1,
+                //        paginationDots : true,
+                paginationVisiblePages: 10,
+                thumbnailHoverEffect: 'imageInvisible,imageScale150',
+                viewerDisplayLogo: true,
+                useTags: false,
+                locationHash: false,
+                breadcrumbAutoHideTopLevel: true,
+                maxItemsPerLine: 5,
+                locationHash: false,
+                itemsBaseURL: 'demonstration/'
+            });
+
+            jQuery('#btnPaginationCount').on('click', function () {
+                alert(jQuery('#nanoGalleryMLN').nanoGallery('paginationCountPages'));
+            });
+            jQuery('#btnPaginationNext').on('click', function () {
+                jQuery('#nanoGalleryMLN').nanoGallery('paginationNextPage');
+            });
+            jQuery('#btnPaginationPrevious').on('click', function () {
+                jQuery('#nanoGalleryMLN').nanoGallery('paginationPreviousPage');
+            });
+            jQuery('#btnPaginationGoto').on('click', function () {
+                jQuery('#nanoGalleryMLN').nanoGallery('paginationGotoPage', 2);
+            });
+
+            // ##################################################################################################################
+            // ##### DEMO PANEL #####
+            // ##################################################################################################################
+            jQuery("#nanoGalleryAnimation1").nanoGalleryDemo({
+                thumbnailWidth: 120,
+                thumbnailHeight: 120,
+                itemsBaseURL: 'demonstration',
+                viewerDisplayLogo: true
+            });
+        });
+    </script>
+
+    <!-- finish jQuery gallery plugin -->
+    
+
+
+
+    <title>KUY.com</title>
+
+
+</head>
+
+<body>
+
+    <!-- Start header  -->
+    <header id="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <div class="header-area">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                <div class="header-top-left">
+                                    <div class="top-email">
+                                        <i class="fa fa-envelope"></i>
+                                        <span>nifanif10@gmail.com</span>
+                                    </div>
+                                    <div class="top-phone">
+                                        <i class="fa fa-phone"></i>
+                                        <span>087883816678</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                <div class="header-top-right">
+                                    <nav>
+                                        <ul class="top-social-nav">
+                                            <li><a href="https://www.w3schools.com" target="_blank"><span
+                                                        class="fab fa-facebook"></span></a></li>
+                                            <li><a href="https://www.instagram.com/nifanif/" target="_blank"><span
+                                                        class="fab fa-instagram"></span></a></li>
+                                            <li><a href="https://twitter.com/AmikomJogja?lang=en" target="_blank"><span
+                                                        class="fab fa-twitter"></span></a></li>
+                                            <li><a href="https://www.youtube.com/channel/UCl-HaWwpTbJyN-5EfFfor8A/featured?view_as=subscriber"
+                                                    target="_blank"><span class="fab fa-youtube"></span></a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- finish header  -->
+    <!-- start navbar -->
+    <section>
+        <nav class="navbar navbar-expand-lg navbar-light "
+            style="background-image: linear-gradient(to right, #e600e6 , #330033); " class="nav-menu">
+            <a class="navbar-brand" href="index.html" style=" color:white ; font-family:Segoe Script">
+                <img src="img/logo.png" style="margin-left: 75%;" width="40" height="35"
+                    class="d-inline-block align-top" alt="kuy.com">
+                KUY.com
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-left: 10%;">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html"> <span class="fas fa-home"></span>
+                            Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html"> <span class="far fa-address-card"></span>
+                            About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ticketreservation.html"> <span class="fas fa-clipboard-list"></span>
+                            Ticket
+                            Reservation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="xperience.html" id="menu"> <span class="fas fa-box"></span>
+                            Xperience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="rentcar.html" id="menu"> <span class="fas fa-car"></span> Rent Car</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html" id="menu" style="color:white"> <span
+                                class="fas fa-book"></span> Gallery</a>
+                    </li>
+                </ul>
+                <div class="login" style="margin-right: 0,5%">
+                    <ul class="nav navbar-nav navbar-right" id="menu-login">
+                        <li style="padding-top:5px;"><a onclick="document.getElementById('id02').style.display='block' "href="#" style="padding: 10px ; font-size: 14px;"><span
+                                    class="fas fa-user" class="glyphicon glyphicon-user"></span>
+                                Sign Up</a>
+                        </li>
+
+ <!-- start form sign up -->
+                        <div id="id02" class="modalsign">
+                            <form class="modal-contentsign animatesign" action="/action_page.php">
+                                <div class="imgcontainersign">
+                                    <span onclick="document.getElementById('id02').style.display='none'"
+                                        class="closesign" title="Close Modal">&times;</span>
+                                </div>
+                                <div class="containersign">
+                                    <label for="uname"><b>Username</b></label>
+                                    <input type="text" placeholder="Enter Username" name="uname" required>
+                                    <label for="uname"><b>Email</b></label>
+                                    <input type="text" placeholder="Enter Email" name="uname" required>
+                                    <label for="psw"><b>Password</b></label>
+                                    <input type="password" placeholder="Enter Password" name="psw" required>
+                                    <label for="psw"><b>Repeat Password</b></label>
+                                    <input type="password" placeholder="Enter Password" name="psw" required>
+                                    <input type="checkbox" name="remember"> Laki-laki
+                                    </label>
+                                    <input type="checkbox" name="remember"> Perempuan
+                                    </label>
+                                    <p style="padding-top:30px;">
+                                        <button type="submit">Create</button>
+                                        <span class="checkmark"></span>
+                                    </p>
+                                </div>
+                                <div class="containersign" style="background-color:#f1f1f1">
+                                    <button type="button" onclick="document.getElementById('id02').style.display='none'"
+                                        class="cancelbtnsign">Cancel</button>
+                                </div>
+                            </form>
+                        </div>
+                        <script>
+                            // Get the modal
+                            var modal = document.getElementById('id02');
+                            // When the user clicks anywhere outside of the modal, close it
+                            window.onclick = function (event) {
+                                if (event.target == modal) {
+                                    modal.style.display = "none";
+                                }
+                            }
+                        </script>
+                        <!-- finish form sign up -->
+
+                        <li style="padding-top:5px;"><a onclick="document.getElementById('id01').style.display='block' "href="#"
+                                style="font-size: 14px ; padding-right: 20px; border-left: 1px solid rgb(255, 255, 255);"><span
+                                    class="fas fa-sign-in-alt" class="glyphicon glyphicon-log-in"
+                                    style="padding:5px; margin-left: 8px;"></span>
+                                Login</a>
+                        </li>
+
+
+                        <!-- start form login -->
+                        <div id="id01" class="modallogin">
+                            <form class="modal-contentlogin animatelogin" action="/action_page.php">
+                                <div class="imgcontainerlogin">
+                                    <span onclick="document.getElementById('id01').style.display='none'"
+                                        class="closelogin" title="Close Modal">&times;</span>
+                                    <img src="img/login/user.png" alt="Avatar" class="avatarlogin">
+                                </div>
+                                <div class="containerlogin">
+                                    <label for="uname"><b>Username</b></label>
+                                    <input type="text" placeholder="Enter Username" name="uname" required>
+                                    <label for="psw"><b>Password</b></label>
+                                    <input type="password" placeholder="Enter Password" name="psw" required>
+                                    <button type="submit">Login</button>
+                                    <label>
+                                        <input type="checkbox" checked="checked" name="remember"> Remember me
+                                    </label>
+                                </div>
+                                <div class="containerlogin" style="background-color:#f1f1f1">
+                                    <button type="button" onclick="document.getElementById('id01').style.display='none'"
+                                        class="cancelbtnlogin">Cancel</button>
+                                    <span class="pswlogin">Forgot <a href="#">password?</a></span>
+                                </div>
+                            </form>
+                        </div>
+                        <script>
+                            // Get the modal
+                            var modal = document.getElementById('id01');
+                            // When the user clicks anywhere outside of the modal, close it
+                            window.onclick = function (event) {
+                                if (event.target == modal) {
+                                    modal.style.display = "none";
+                                }
+                            }
+                        </script>
+                        <!-- finish form login -->
+
+
+                        <li>
+                            <a href="contact.html">
+                                <button type="button" class="btn btn-outline-primary">Contact Us</button>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <!-- finish navbar -->
+
+
+    <!-- start section -->
+
+    <div class="hero-image-gallery">
+        <div class="hero-text">
+            <i class="carousel-caption d-none d-md-block animated slideInUp">
+                <h1 style="font-size:40PX;">Gallery</h1>
+                <p>Enjoy Your Holiday</p>
+                <p class="fas fa-angle-double-down"></p>
+            </i>
+        </div>
+    </div>
+
+    <!-- finish section -->
+
+    <!-- start video gallery -->
+    <div class="container-gallery">
+        <div class="row">
+            <div class="col-md-6">
+                <video loop width="100%" height="100%" controls id="myvideo" style="border:0px solid #e708e7;">
+                    <source src="video/girl.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="col-md-6">
+                <h3>Keindahan Alam</h3>
+                <p>ndonesia merupakan negara yang memiliki berjuta keindahan Panorama didalamnya. Kekayaan akan sumber daya alamnya merupakan daya tarik tersendiri bagi nerga-negara lain. Tentunya pemandangan dan keindahan alamnya juga banyak dan beragam, mulai dari sabang sampai merauke terdapat keindahan alam yang tersembunyi yang tidak dimiliki oleh negara lain. Maka dari itu cintailah dan rawatlah alam yang kita miliki ini. 
+Keindahan merupakan sifat dan ciri dari orang, hewan, tempat, objek, atau gagasan yang memberikan pengalaman persepsi kesenangan, bermakna, atau kepuasan. Dalampengertian yang lain diartikan sebagai keadaan yang enak dipandang, cantik, bagus benar atau elok. Keindahan dipelajari sebagai bagian dari estetika, sosiologi, psikologi sosial, dan budaya. Sebuah “kecantikan yang ideal” adalah sebuah entitas yang dikagumi, atau memiliki fitur yang dikaitkan dengan keindahan dalam suatu budaya tertentu, untuk kesempurnaannya.
+Keindahan dalam arti luas adalah keindahan dalam arti luas mengandung pengertian ide kebaikan. Misalnya Plato menyebut watak yang indah dan hukum yang indah.</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var elem = document.getElementById("myvideo");
+
+        function openFullscreen() {
+            if (elem.requestFullscreen) {
+                elem.requestFullscreen();
+            } else if (elem.mozRequestFullScreen) {
+                /* Firefox */
+                elem.mozRequestFullScreen();
+            } else if (elem.webkitRequestFullscreen) {
+                /* Chrome, Safari & Opera */
+                elem.webkitRequestFullscreen();
+            } else if (elem.msRequestFullscreen) {
+                /* IE/Edge */
+                elem.msRequestFullscreen();
+            }
+        }
+    </script>
+
+    <!-- finish video gallery -->
+
+    <!-- start gallery plugin jquery-->
+    <div class="row" style="background: #e9ecef; padding-top: 1%; padding-bottom: 2%;">
+        <div class="col-md-12">
+            <div style="margin:auto;max-width:1200px; ">
+                <div id="nanoGallery4"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- finish gallery plugin jquery-->
+
+
+    <!-- Start footer -->
+    <footer id="footer">
+        <!-- start footer top -->
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-top-area">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 col-sm-3">
+                            <div class="footer-widget">
+                                <h4 style="margin-left: 13px;">Information</h4>
+                                <ul>
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="">About Us</a></li>
+                                    <li><a href="">Ticket Reservation</a></li>
+                                    <li><a href="">Xperience</a></li>
+                                    <li><a href="">Rent Car</a></li>
+                                    <li><a href="">Gallery</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3">
+                            <div class="footer-widget">
+                                <h4 style="margin-left: 13px;">Products</h4>
+                                <ul>
+                                    <li><a href="">Flights</a></li>
+                                    <li><a href="#">Hotels</a></li>
+                                    <li><a href="">Trains</a></li>
+                                    <li><a href="">Flight and Hotel</a></li>
+                                    <li><a href="">Car Rental</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3">
+                            <div class="footer-widget">
+                                <h4>News letter</h4>
+                                <p>Get latest update, news & travel offers</p>
+                                <form class="subscribe-form">
+                                    <input type="email" placeholder="Type your Email">
+                                    <button class="btn btn-primary" type="submit">Subscribe</button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3">
+                            <div class="footer-widget">
+                                <h4>Contact</h4>
+                                <address>
+                                    <p>Kampus Terpadu : Jl. Ring Road Utara, Condong Catur, Sleman, Yogyakarta</p>
+                                    <p>Phone : 087883816678</p>
+                                    <p>Website: amikom.ac.id</p>
+                                    <p>Email : nifanif10@gmail.com</p>
+                                </address>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end footer top -->
+        <!-- start footer bottom -->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="footer-bottom-area">
+                    <p>&copy; All Right Reserved. Designed by <a href="index.html" rel="nofollow">nifanif10</a></p>
+                </div>
+            </div>
+        </div>
+        <!-- end footer bottom -->
+    </footer>
+    <!-- End footer -->
+
+    <!-- start btn to top -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <script>
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("myBtn").style.display = "block";
+            } else {
+                document.getElementById("myBtn").style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+    <!-- finish btn to top -->
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src="js/proper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

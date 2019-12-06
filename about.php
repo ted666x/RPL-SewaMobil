@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="RPL/css/bootstrap.css">
+    <!-- Animasi slider CSS -->
+    <link rel="stylesheet" href="RPL/css/animasi.css">
+    <!-- My CSS -->
+    <link rel="stylesheet" href="RPL/css/style.css">
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+    <title>KUY.com</title>
+
+</head>
+
+<body>
+    <!-- Start header  -->
+    <header id="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <div class="header-area">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                <div class="header-top-left">
+                                    <div class="top-email">
+                                        <i class="fa fa-envelope"></i>
+                                        <span>nifanif10@gmail.com</span>
+                                    </div>
+                                    <div class="top-phone">
+                                        <i class="fa fa-phone"></i>
+                                        <span>087883816678</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                <div class="header-top-right">
+                                    <nav>
+                                        <ul class="top-social-nav">
+                                            <li><a href="https://www.facebook.com/anif.cuwakeps" target="_blank"><span
+                                                        class="fab fa-facebook"></span></a></li>
+                                            <li><a href="https://www.instagram.com/nifanif/" target="_blank"><span
+                                                        class="fab fa-instagram"></span></a></li>
+                                            <li><a href="https://twitter.com/AmikomJogja?lang=en" target="_blank"><span
+                                                        class="fab fa-twitter"></span></a></li>
+                                            <li><a href="https://www.youtube.com/channel/UCl-HaWwpTbJyN-5EfFfor8A/featured?view_as=subscriber"
+                                                    target="_blank"><span class="fab fa-youtube"></span></a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- finish header  -->
+
+    <!-- start navbar -->
+    <section>
+        <nav class="navbar navbar-expand-lg navbar-light "
+            style="background-image: linear-gradient(to right, #e600e6 , #330033); " class="nav-menu">
+            <a class="navbar-brand" href="index.php" style=" color:white ; font-family:Segoe Script">
+                <img src="RPL/img/logo.png" style="margin-left: 75%;" width="40" height="35"
+                    class="d-inline-block align-top" alt="kuy.com">
+                KUY.com
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-left: 10%;">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.php"> <span class="fas fa-home"></span>
+                            Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.php" style="color:white"> <span
+                                class="far fa-address-card"></span>
+                            About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tiket.php"> <span class="fas fa-clipboard-list"></span>
+                            Ticket
+                            Reservation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="xperience.html" id="menu"> <span class="fas fa-box"></span>
+                            Xperience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="rentcar.html" id="menu"> <span class="fas fa-car"></span> Rent Car</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html" id="menu"> <span class="fas fa-book"></span> Gallery</a>
+                    </li>
+                </ul>
+                <div class="login" style="margin-right: 0,5%">
+                    <ul class="nav navbar-nav navbar-right" id="menu-login">
+                        <li style="padding-top:5px;"><a onclick="document.getElementById('id02').style.display='block' "href="#" style="padding: 10px ; font-size: 14px;"><span
+                                    class="fas fa-user" class="glyphicon glyphicon-user"></span>
+                                Sign Up</a>
+                        </li>
+
+<!-- start form sign up -->
+                        <div id="id02" class="modalsign">
+                            <form class="modal-contentsign animatesign" action="/action_page.php">
+                                <div class="imgcontainersign">
+                                    <span onclick="document.getElementById('id02').style.display='none'"
+                                        class="closesign" title="Close Modal">&times;</span>
+                                </div>
+                                <div class="containersign">
+                                    <label for="uname"><b>Username</b></label>
+                                    <input type="text" placeholder="Enter Username" name="uname" required>
+                                    <label for="uname"><b>Email</b></label>
+                                    <input type="text" placeholder="Enter Email" name="uname" required>
+                                    <label for="psw"><b>Password</b></label>
+                                    <input type="password" placeholder="Enter Password" name="psw" required>
+                                    <label for="psw"><b>Repeat Password</b></label>
+                                    <input type="password" placeholder="Enter Password" name="psw" required>
+                                    <input type="checkbox" name="remember"> Laki-laki
+                                    </label>
+                                    <input type="checkbox" name="remember"> Perempuan
+                                    </label>
+                                    <p style="padding-top:30px;">
+                                        <button type="submit">Create</button>
+                                        <span class="checkmark"></span>
+                                    </p>
+                                </div>
+                                <div class="containersign" style="background-color:#f1f1f1">
+                                    <button type="button" onclick="document.getElementById('id02').style.display='none'"
+                                        class="cancelbtnsign">Cancel</button>
+                                </div>
+                            </form>
+                        </div>
+                        <script>
+                            // Get the modal
+                            var modal = document.getElementById('id02');
+                            // When the user clicks anywhere outside of the modal, close it
+                            window.onclick = function (event) {
+                                if (event.target == modal) {
+                                    modal.style.display = "none";
+                                }
+                            }
+                        </script>
+                        <!-- finish form sign up -->
+
+                        <!-- start form login -->
+                        <div id="id01" class="modallogin">
+                            <form class="modal-contentlogin animatelogin" action="/action_page.php">
+                                <div class="imgcontainerlogin">
+                                    <span onclick="document.getElementById('id01').style.display='none'"
+                                        class="closelogin" title="Close Modal">&times;</span>
+                                    <img src="RPL/img/login/user.png" alt="Avatar" class="avatarlogin">
+                                </div>
+                                <div class="containerlogin">
+                                    <label for="uname"><b>Username</b></label>
+                                    <input type="text" placeholder="Enter Username" name="uname" required>
+                                    <label for="psw"><b>Password</b></label>
+                                    <input type="password" placeholder="Enter Password" name="psw" required>
+                                    <button type="submit">Login</button>
+                                    <label>
+                                        <input type="checkbox" checked="checked" name="remember"> Remember me
+                                    </label>
+                                </div>
+                                <div class="containerlogin" style="background-color:#f1f1f1">
+                                    <button type="button" onclick="document.getElementById('id01').style.display='none'"
+                                        class="cancelbtnlogin">Cancel</button>
+                                    <span class="pswlogin">Forgot <a href="#">password?</a></span>
+                                </div>
+                            </form>
+                        </div>
+                        <script>
+                            // Get the modal
+                            var modal = document.getElementById('id01');
+                            // When the user clicks anywhere outside of the modal, close it
+                            window.onclick = function (event) {
+                                if (event.target == modal) {
+                                    modal.style.display = "none";
+                                }
+                            }
+                        </script>
+                        <!-- finish form login -->                            
+
+                        <li style="padding-top:5px;"><a onclick="document.getElementById('id01').style.display='block' "href="#"
+                                style="font-size: 14px ; padding-right: 20px; border-left: 1px solid rgb(255, 255, 255);"><span
+                                    class="fas fa-sign-in-alt" class="glyphicon glyphicon-log-in"
+                                    style="padding:5px; margin-left: 8px;"></span>
+                                Login</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">
+                                <button type="button" class="btn btn-outline-primary">Contact Us</button>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <!-- finish navbar -->
+
+    <!-- start section -->
+
+    <div class="hero-image-about">
+        <div class="hero-text">
+            <i class="carousel-caption d-none d-md-block animated slideInUp">
+                <h1 style="font-size:40PX;">About Us</h1>
+                <p>Enjoy Your Holiday</p>
+                <p class="fas fa-angle-double-down"></p>
+            </i>
+        </div>
+    </div>
+
+    <!-- finish section -->
+
+    <!-- start about -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h4 id="about1">Explore Indonesian and create your moments and experience with KUY.com</h4>
+                <p id="about2">Jelajahi Indonesia dan ciptakan momen keseruan dan pengalaman Anda bersama KUY.com</p>
+            </div>
+            <div class="col-md-6">
+                <img id="imgabouttop" src="RPL/img/about/map1.png" width="575" height="355">
+            </div>
+        </div>
+        <div class="row" style="padding-top: 5%;">
+            <div class="col-md-4">
+                <img id="imgabout1" src="RPL/img/about/img3.png" width="350" height="250">
+            </div>
+            <div class="col-md-8">
+                <h4 id="about5">Tentang KUY.com</h4>
+                <p>Kuy.com adalah perusahaan travel terkemuka di Indonesia yang menyediakan berbagai kebutuhan
+                    perjalanan dalam satu platform, memungkinkan Anda untuk menciptakan momen bersama orang-orang
+                    terkasih. Kami menawarkan tiket pesawat, hotel, tiket kereta, *paket pesawat + hotel*,*paket kereta
+                    + hotel*, *experience & rekreasi*, dan sewa kendaraan.
+                </p>
+                <p>*Khusus di Indonesia</p>
+            </div>
+        </div>
+        <div class="row" style="padding-top: 5%; padding-bottom: 5%;">
+            <div class="col-md-8">
+                <p id="about4">Bekerja sama dengan lebih dari 100 maskapai penerbangan domestik dan berbagai macam
+                    kereta api, KUY.com melayani lebih dari 100.000 rute penerbangan ke berbagai wilayah di Indonesia
+                    serta rute kereta api di pulau Jawa. Kami pun memiliki inventori pemesanan akomodasi terbesar,
+                    bervariasi mulai dari hotel, apartemen, guest house, homestay, vila, dan resor. Semua itu didukung
+                    oleh lebih dari 40 metode pembayaran untuk seluruh pelanggan di di Indonesia, serta customer service
+                    yang siap melayani selama 24 jam dalam bahasa asing maupun lokal.</p>
+            </div>
+            <div class="col-md-4">
+                <img id="imgabout2" src="RPL/img/about/img2.png" width="350" height="250">
+            </div>
+        </div>
+        <div class="row" style="padding-bottom: 5%;">
+            <div class="col-md-4">
+                <img id="imgabout1" src="RPL/img/about/img1.png" width="350" height="250">
+            </div>
+            <div class="col-md-8">
+                <p id="about3">Layanan web pada KUY.com telah digunakan lebih dari 30 juta orang, menjadikannya layanan
+                    web paling populer di Indonesia. Banyak sekali customer yang senang dengan layanan yang disediakan
+                    pada KUY.com</p>
+            </div>
+        </div>
+    </div>
+    <!-- finish about -->
+
+    <!-- start our team -->
+    <section class="our-team-section">
+        <div class="container">
+            <h1 class="display-4 text-center" id="popular">Our Team</h1>
+            <hr class="new2">
+            <div class="row" style="padding-bottom: 5%; padding-top: 4%;">
+                <div class="col-md-4">
+                    <div class="our-team">
+                        <img src="RPL/img/about/aniff.jpg" alt="nama"
+                            style="width:300px; height: 340px; border-top-left-radius: 5px; border-top-right-radius: 5px;">
+                        <h3 class="title-nama">Anif Prabono</h3>
+                        <p class="title-team">CEO & Founder</p>
+                        <p>University Of AMIKOM Yogyakarta</p>
+                        <div style="margin: 24px 0;">
+                            <a class="a-our" href="https://www.instagram.com/nifanif/"><i
+                                    class="fab fa-instagram"></i></a>
+                            <a class="a-our" href="https://twitter.com/AmikomJogja?lang=en"><i
+                                    class="fab fa-twitter"></i></a>
+                            <a class="a-our"
+                                href="https://www.youtube.com/channel/UCl-HaWwpTbJyN-5EfFfor8A/featured?view_as=subscriber"><i
+                                    class="fab fa-youtube"></i></a>
+                            <a class="a-our" href="https://www.facebook.com/anif.cuwakeps"><i
+                                    class="fab fa-facebook"></i></a>
+                        </div>
+                        <p><button class="button-our">Contact</button></p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="our-team">
+                        <img src="RPL/img/about/dimas.jpg" alt="nama"
+                            style="width:300px; height: 340px; border-top-left-radius: 5px; border-top-right-radius: 5px;">
+                        <h3 class="title-nama">Dimas Midyan Alam</h3>
+                        <p class="title-team">Lead Developer</p>
+                        <p>University Of AMIKOM Yogyakarta</p>
+                        <div style="margin: 24px 0;">
+                            <a class="a-our" href="#"><i class="fab fa-instagram"></i></a>
+                            <a class="a-our" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="a-our" href="#"><i class="fab fa-youtube"></i></a>
+                            <a class="a-our" href="#"><i class="fab fa-facebook"></i></a>
+                        </div>
+                        <p><button class="button-our">Contact</button></p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="our-team">
+                        <img src="RPL/img/about/manul.jpg" alt="nama"
+                            style="width:300px; height: 340px; border-top-left-radius: 5px; border-top-right-radius: 5px;">
+                        <h3 class="title-nama">Rizky Amanullah</h3>
+                        <p class="title-team">Project Manager</p>
+                        <p>University Of AMIKOM Yogyakarta</p>
+                        <div style="margin: 24px 0;">
+                            <a class="a-our" href="#"><i class="fab fa-instagram"></i></a>
+                            <a class="a-our" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="a-our" href="#"><i class="fab fa-youtube"></i></a>
+                            <a class="a-our" href="#"><i class="fab fa-facebook"></i></a>
+                        </div>
+                        <p><button class="button-our">Contact</button></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Finish our team -->
+
+    <!-- Start footer -->
+    <footer id="footer">
+        <!-- start footer top -->
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-top-area">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 col-sm-3">
+                            <div class="footer-widget">
+                                <h4 style="margin-left: 13px;">Information</h4>
+                                <ul>
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="">About Us</a></li>
+                                    <li><a href="">Ticket Reservation</a></li>
+                                    <li><a href="">Xperience</a></li>
+                                    <li><a href="">Rent Car</a></li>
+                                    <li><a href="">Gallery</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3">
+                            <div class="footer-widget">
+                                <h4 style="margin-left: 13px;">Products</h4>
+                                <ul>
+                                    <li><a href="">Flights</a></li>
+                                    <li><a href="#">Hotels</a></li>
+                                    <li><a href="">Trains</a></li>
+                                    <li><a href="">Flight and Hotel</a></li>
+                                    <li><a href="">Car Rental</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3">
+                            <div class="footer-widget">
+                                <h4>News letter</h4>
+                                <p>Get latest update, news & travel offers</p>
+                                <form class="subscribe-form">
+                                    <input type="email" placeholder="Type your Email">
+                                    <button class="btn btn-primary" type="submit">Subscribe</button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3">
+                            <div class="footer-widget">
+                                <h4>Contact</h4>
+                                <address>
+                                    <p>Kampus Terpadu : Jl. Ring Road Utara, Condong Catur, Sleman, Yogyakarta</p>
+                                    <p>Phone : 087883816678</p>
+                                    <p>Website: amikom.ac.id</p>
+                                    <p>Email : nifanif10@gmail.com</p>
+                                </address>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end footer top -->
+        <!-- start footer bottom -->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="footer-bottom-area">
+                    <p>&copy; All Right Reserved. Designed by <a href="index.php" rel="nofollow">nifanif10</a></p>
+                </div>
+            </div>
+        </div>
+        <!-- end footer bottom -->
+    </footer>
+    <!-- Finish footer -->
+
+    <!-- start btn to top -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <script>
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("myBtn").style.display = "block";
+            } else {
+                document.getElementById("myBtn").style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+    <!-- finish btn to top -->
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery.js"></script>
+    <script src="js/proper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
